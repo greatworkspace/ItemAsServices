@@ -2202,25 +2202,34 @@ fieldset[disabled] a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  /* background-color: #343a40;
+  border-color: #343a40; */
+  background-color: #1C1532;
+  border-color: #1C1532;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #23272b;
-  border-color: #1d2124;
+  /* background-color: #23272b;
+  border-color: #1d2124; */
+  background-color: #1C1532;
+  border-color: #1C1532;
 }
 .btn-dark:focus, .btn-dark.focus {
   box-shadow: 0 0 0 3px rgba(52, 58, 64, 0.5);
 }
 .btn-dark.disabled, .btn-dark:disabled {
-  background-color: #343a40;
-  border-color: #343a40;
+  /* background-color: #343a40;
+  border-color: #343a40; */
+  background-color: #1C1532;
+  border-color: #1C1532;
 }
 .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
-  background-color: #23272b;
+  /* background-color: #23272b;
   background-image: none;
-  border-color: #1d2124;
+  border-color: #1d2124; */
+  background-color: #1C1532;
+  border-color: #1C1532;
+  background-image: none;
 }
 
 .btn-outline-primary {
@@ -12894,8 +12903,12 @@ textarea.parsley-success:focus {
 .signpanel-wrapper {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
+  background-image: url('../img/logo.svg');
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
 }
 @media (min-width: 576px) {
   .signpanel-wrapper {
@@ -12905,16 +12918,20 @@ textarea.parsley-success:focus {
 
 .signbox {
   width: 400px;
-  background-color: #fff;
+  position: absolute;
+  background-color: rgba(244, 244, 244, 0.99);
+  margin: 15px 0px;
+  /* background-color: #fff; */
+  
 }
 .signbox.signup {
   width: 500px;
 }
 
 .signbox-header {
-  padding: 30px 0;
+  padding: 15px 0;
   text-align: center;
-  background-color: #3B6998;
+  background-color: #1C1532;
 }
 .signbox-header h4 {
   color: #fff;
@@ -12926,7 +12943,8 @@ textarea.parsley-success:focus {
 
 .signbox-body {
   padding: 20px;
-  background-color: #dee2e6;
+  /* background-color: #dee2e6; */
+  background-color: #dfd6fc;
 }
 @media (min-width: 576px) {
   .signbox-body {
